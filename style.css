@@ -1,0 +1,54 @@
+#main-title {
+    text-align: center;
+    color: #b4a60f;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#main-p {
+    text-align: center;
+    color: #846A20;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.header {
+    background-color: #23282B;
+    opacity: 0, 5;
+}
+
+.news article h2 {
+    font-size: 32px;
+    color: #0000FF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news article p {
+    font-size: 20px;
+    color: #8B00FF;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.market h2 {
+    font-size: 28px;
+    color: #FF1493;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grey {
+    color: #0ABAB5;
+    background-color: #23282B;
+    text-align: center;
+    font-size: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+p {
+    color: #92000A;
+    font-size: 18px;
+    text-align: right;
+}

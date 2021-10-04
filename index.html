@@ -4,26 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Основной файл index.html</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Моя первая страница</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="" alt="">
+    <header class="header">
+        <img src="/logo.png" alt="Логотип">
         <nav>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/contacts">Контакты</a></li>
             </ul>
         </nav>
-    </header>>a
-     <sechion>
-        <h1>Заголовок h1 в section блоке в теге header</h1>
-        <p>Параграф в section блоке</p>
-        <p>Шапка создана с помощью урока из курса Hexlet</p>
-        <a href="https://ru.hexlet.io/courses/layout-designer-basics/lessons/html-intro/theory_unit">Ссылка на урок</a>
-     </sechion>
+    </header>
+    <img src="http://htmlbook.ru/files/images/content/055_1.png" alt="Вставляем картинку">
+    <aside>
+        <div class="grey">
+            <p>Первый параграф боковой секции</p>
+            <p>Второй параграф боковой секции</p>
+            <p>Третий параграф боковой секции</p>
+        </div>
+    </aside>
+    <main>
+        <h1 id="main-title">Заголовок</h1>
+        <p id="main-p">Введение и общее описание страницы</p>
+        <sechion class="news">
+            <article>
+                <h2>Новость 1</h2>
+                <p>Текст новости</p>
+                <p>Текст новости</p>
+                <a href="https://ru.hexlet.io/courses/layout-designer-basics/lessons/html-intro/theory_unit">Ссылка на урок</a>
+            </article>
+            <article>
+                <h2>Новость 2</h2>
+                <p>Текст новости</p>
+                <p>Текст новости</p>
+            </article>
+        </section>
+        <section class="market">
+            <h2>Реклама</h2>
+            <ul>
+                <li>Первый продукт</li>
+                <li>Второй продукт</li>
+                <li>Третий продукт</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <table>
+            <tr>
+                <td><b>Телефоны</b></td>
+                <td><i>9228844</i></td>
+                <td><i>9779922</i></td>
+            </tr>
+            <tr>
+                <td><b>Социальные сети</b></td>
+                <td><i>Инстаграмм</i></td>
+                <td><i>ТикТок</i></td>
+            </tr>
+            <tr>
+                <td><b>Приложение</b></td>
+                <td><b>Отзывы</b></td>
+                <td><b>Обратная связь</b></td>
+            </tr>
+        </table>
+    </footer>
 </body>
-main>
+
 </html>
